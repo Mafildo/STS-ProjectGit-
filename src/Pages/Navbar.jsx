@@ -21,8 +21,8 @@ const Navbar = () => {
             <BiSearch className="search-icon" />
           </button>
         </div>
-
-       {/* <FaShippingFast className="delivery-truck-icon"/><p style={{color:"white"}}>Free Shipping on orders</p> */}
+{/* 
+       <FaShippingFast className="delivery-truck-icon"/><p style={{color:"white"}}>Free Shipping on orders</p> */}
 
       </div>
 
