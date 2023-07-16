@@ -4,8 +4,7 @@ import logo from "../Images/Logo-removebg.png";
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BiSolidUserCircle } from "react-icons/bi";
-import { FaShippingFast } from 'react-icons/fa';
-
+import { FaShippingFast } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -16,14 +15,17 @@ const Navbar = () => {
         </div>
 
         <div className="search-bar">
-        <input type="text" placeholder="Search for your item..." name="q" />
+          <input type="text" placeholder="Search..." name="q" />
           <button type="submit">
             <BiSearch className="search-icon" />
           </button>
         </div>
-{/* 
-       <FaShippingFast className="delivery-truck-icon"/><p style={{color:"white"}}>Free Shipping on orders</p> */}
-
+        <div className="order">
+          <FaShippingFast className="delivery-truck-icon" />
+          <p style={{ color: "white", fontSize:'.8rem' }}>Free Shipping on orders</p>
+        </div>
+        {/*
+         */}
       </div>
 
       <nav>
@@ -40,9 +42,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div className="lower-container">
-        ---
-      </div>
+      <div className="lower-container">---</div>
     </>
   );
 };

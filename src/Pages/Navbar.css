@@ -6,44 +6,85 @@
 }
 
 .upper-container {
+  padding-top: 5px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
   background-color: rgb(54, 53, 53);
+  justify-content: center;
+  align-items: center;
 }
-
-.logo-container {
-  position: relative;
-  left: -5em;
-  width: 10em;
-  height: 10em;
-  /* background-color: rgba(86, 86, 95, 0.479);  */
-}
-
-.logo {
-  width: 10em;
-  height: 10em;
-}
-
 .search-bar {
-  position: relative;
-  right: 10em;
   background: rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 60px;
-  height: 57px;
-  width: 35em;
+  height: 3.15em;
+  width: 20em;
+}
+
+.logo-container {
+  height: 5em;
+  width: 5em;
+}
+@media screen and (min-width: 640px) {
+  .upper-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 2em;
+  }
+  .search-bar {
+    width: 17em;
+  }
+}
+@media screen and (min-width: 800px) {
+  .search-bar {
+    width: 25em;
+  }
+  .logo-container {
+    height: 6.5em;
+    width: 6.5em;
+  }
+  .upper-container {
+    padding-inline: 3em;
+  }
+
+}
+@media screen and (min-width: 1000px) {
+  .search-bar {
+    width: 30em;
+  }
+
+  .logo-container {
+    height: 8em;
+    width: 8em;
+  }
+}
+
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .search-bar input {
   background: transparent;
-  flex: 1;
   border: 0;
   outline: none;
   padding: 24px 20px;
   font-size: 15px;
-  color: black;
+  color: whitesmoke;
+}
+.order {
+  margin-block: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5em;
+}
+.delivery-truck-icon {
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 ::placeholder {
@@ -52,7 +93,7 @@
 
 .search-bar button {
   border: 0;
-  margin-right: 5px;
+  margin-right: 2px;
   border-radius: 25px;
   width: 65px;
   height: 45px;
@@ -75,8 +116,8 @@
 
 nav {
   position: relative;
-  color: white;
-  font-weight: 600;
+  color: whitesmoke;
+  font-weight: 500;
   font-size: large;
   width: 100%;
   height: 60px;
@@ -123,8 +164,12 @@ nav ul li:hover {
   margin-right: 5em;
 }
 
-@media screen and (max-width: 900px) {
-  nav {
+@media screen and (min-width: 640px) {
+  .upper-container {
+    flex-direction: row;
+  }
+}
+/*   nav {
     font-size: 1em;
   }
 
@@ -139,7 +184,6 @@ nav ul li:hover {
   .logo-container {
     width: 7em;
     height: 7em;
-    margin-left: 8em;
   }
 
   .logo {
@@ -178,14 +222,9 @@ nav ul li:hover {
     width: 30px;
     height: 25px;
   }
-}
+} */
 
-.lower-container{
-    background-color: rgb(54, 53, 53);
-    height: 66vh;
-}
-
-.delivery-truck-icon{
-    font-size: 30px;
-    color: white;
+.lower-container {
+  background-color: rgb(54, 53, 53);
+  height: 66vh;
 }
