@@ -5,6 +5,9 @@ import { BiSearch } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BiSolidUserCircle } from "react-icons/bi";
 import { FaShippingFast } from "react-icons/fa";
+import "react-slideshow-image/dist/styles.css";
+import { Fade, Zoom, Slide } from "react-slideshow-image";
+import ImageSlider from "./carousel/ImageSlider";
 
 const Navbar = () => {
   return (
@@ -22,7 +25,9 @@ const Navbar = () => {
         </div>
         <div className="order">
           <FaShippingFast className="delivery-truck-icon" />
-          <p style={{ color: "white", fontSize:'.8rem' }}>Free Shipping on orders</p>
+          <p style={{ color: "white", fontSize: ".8rem" }}>
+            Free Shipping on orders
+          </p>
         </div>
         {/*
          */}
@@ -42,7 +47,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div className="lower-container">---</div>
+      <ImageSlider/>
     </>
   );
 };
