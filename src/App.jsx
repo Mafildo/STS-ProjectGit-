@@ -15,6 +15,8 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/aboutUs" element={<AboutUs />} />
       </Routes>
+      <Home/>
+      {/* ok */}
     </>
   );
 };
