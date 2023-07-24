@@ -1,0 +1,35 @@
+.wrapper{
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: black;
+    height: 490px;
+}
+.container-1{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content:space-evenly;
+    /* padding-left: 9em;
+    padding-right: 2em; */
+}
+
+.image{
+    width: 47rem;
+    height: 35rem;
+    @media only screen and (max-width:1350px ){
+        width: 30rem;
+        height: 25rem;
+    }
+}
+.left-side{
+    font-size:x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 490px;
+    @media only screen and (max-width:1250px ){
+        width: 23rem;
+        height: 20rem;
+    }
+}
