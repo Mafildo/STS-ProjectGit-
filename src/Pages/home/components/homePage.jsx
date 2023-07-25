@@ -13,7 +13,7 @@ const HomePage = () => {
             <motion.p
               initial={{ y: "-0.5rem", opacity: 0 }}
               animate={{ y: "0", opacity: 1 }}
-              transition={{ duration: 2, type: "spring" }}
+              transition={{ duration: 3, type: "spring" }}
               className="para1"
             >
               ASUS PC SET
@@ -22,7 +22,7 @@ const HomePage = () => {
             <motion.p
               initial={{ x: "-1rem", opacity: 0 }}
               animate={{ x: "0", opacity: 1 }}
-              transition={{ duration: 2, type: "spring" }}
+              transition={{ duration: 3, type: "spring" }}
               className="para2"
             >
               Featuring new ASUS PC for Gamer Folks
@@ -30,7 +30,7 @@ const HomePage = () => {
             <motion.p
               initial={{ y: "0.5rem", opacity: 0 }}
               animate={{ y: "0", opacity: 1 }}
-              transition={{ duration: 2, type: "spring" }}
+              transition={{ duration: 3, type: "spring" }}
               className="para3"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
@@ -41,7 +41,7 @@ const HomePage = () => {
             <motion.div
               initial={{ x: "-1rem", opacity: 0 }}
               animate={{ x: "0", opacity: 1 }}
-              transition={{ duration: 2, type: "spring" }}
+              transition={{ duration: 3, type: "spring" }}
               className="explore"
             >
               Explore <BsArrowRight />
@@ -50,7 +50,7 @@ const HomePage = () => {
           <motion.div
             initial={{ x: "0.5rem", opacity: 0 }}
             animate={{ x: "0", opacity: 1 }}
-            transition={{ duration: 2, type: "spring" }}
+            transition={{ duration: 3, type: "spring" }}
             className="right-side"
           >
             <img src={pc} alt="" className="pc-image" />

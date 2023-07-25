@@ -19,8 +19,8 @@ const feature = () => {
       </div>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
-        {Menulist.map((menu) => (
-          <Card sx={{ maxWidth: "390px", display: "flex", m:5}}>
+        {Menulist.map((menu, index) => (
+          <Card sx={{ maxWidth: "390px", display: "flex", m:5}} key={index} >
             <CardActionArea>
               <CardMedia
                 sx={{ minHeight: "400px" }}

@@ -2,6 +2,7 @@ import React from "react";
 import { FaShippingFast } from "react-icons/fa";
 import logo from "../../Images/Logo-removebg.png";
 import { BiSearch } from "react-icons/bi";
+import "./Navbar.css"
 const Header = () => {
   return (
     <>
