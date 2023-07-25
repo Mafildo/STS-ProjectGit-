@@ -1,0 +1,18 @@
+.accounts-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 17px;
+    width: 5.5em;
+    height: 3.5em;
+    border-radius: 5px;
+    font-size: small;
+    padding-left: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}

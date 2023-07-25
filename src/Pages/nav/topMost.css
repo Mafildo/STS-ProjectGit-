@@ -1,0 +1,40 @@
+.location-user-div {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2em;
+  height: 2em;
+  color: white;
+  background-color: rgb(49, 46, 46);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon {
+  display: flex;
+  align-items: center;
+}
+
+.Store-location-para {
+  font-size: small;
+}
+
+.Account-para {
+  font-size: small;
+}
+
+.users-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
