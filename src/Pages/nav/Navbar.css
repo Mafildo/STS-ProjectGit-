@@ -219,13 +219,14 @@ nav {
   .navbar-items{
     gap: 4em;
     font-size: 17px;
+    padding-left: 1.5em;
   }
 }
 
 @media screen and (min-width: 1080px) {
   .navbar-items{
     gap: 6em;
-   padding-left: 6em;
+   padding-left: em;
   }
 }
 

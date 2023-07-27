@@ -3,7 +3,7 @@ import Navbar from "../nav/Navbar";
 import Header from "../nav/header";
 import TopMost from "../nav/topMost";
 import HomePage from "./components/homePage";
-
+import Footer from "../footer/footer";
 
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
       <Header />
       <Navbar />
       <HomePage/>
+      <Footer />
     </>
   );
 };
