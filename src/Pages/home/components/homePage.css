@@ -109,6 +109,7 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 2em;
+    margin-top: 25px;
 }
 
 .explore:hover{

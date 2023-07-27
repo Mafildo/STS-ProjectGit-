@@ -3,8 +3,11 @@ import "../components/homePage.css";
 import pc from "../../../Images/pc.png";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
+// import { useParams } from "react-router-dom";
 
-const HomePage = () => {
+const HomePage = () => { 
+  
+  
   return (
     <>
       <div className="home-page-main-container">
@@ -25,7 +28,7 @@ const HomePage = () => {
               transition={{ duration: 3, type: "spring" }}
               className="para2"
             >
-              Featuring new ASUS PC for Gamer Folks
+              Featuring new <span style={{color:"yellow", fontSize: "28px"}}>ASUS PC</span>  for Gamer Folks
             </motion.p>
             <motion.p
               initial={{ y: "0.5rem", opacity: 0 }}

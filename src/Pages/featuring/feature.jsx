@@ -14,16 +14,16 @@ const feature = () => {
   return (
     <>
       <div className="paras">
-        <h1 className="h-2">Popular</h1>
-        <h3 className="p-2">products</h3>
+        <h1 className="h-2">Popular Products</h1>
+        <p className="p-2">Not Finding Customers For Our Product BUT Finding Products For Our Customers</p>
       </div>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
         {Menulist.map((menu, index) => (
-          <Card sx={{ maxWidth: "390px", display: "flex", m:5}} key={index} >
+          <Card sx={{ maxHeight: "350px", maxWidth: "250px", display: "flex", m:5}} key={index} >
             <CardActionArea>
               <CardMedia
-                sx={{ minHeight: "400px" }}
+                sx={{ maxHeight: "200px", maxWidth: "220px" }}
                 component={"img"}
                 src={menu.image}
                 alt={menu.name}

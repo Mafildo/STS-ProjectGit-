@@ -4,9 +4,12 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Categories from "./categories";
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [hide, setHide] = useState(true);
+  const link = window.location.href;
+  // http://localhost:5173/Home
   return (
     <>
       <div className="" style={{ position: "relative" }}>
@@ -23,10 +26,42 @@ const Navbar = () => {
           </div>
 
           <ul className="navbar-items">
-            <li>Home</li>
-            <li>Product</li>
-            <li>Service</li>
-            <li>About Us</li>
+            <li>
+              <Link
+                className="nav-link"
+                style={
+                  link === "http://localhost:5173/Home"
+                    ? { color: "yellow" }
+                    : null
+                }
+                to="/Home"
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="nav-link"
+                to="/Product"
+                style={
+                  link === "http://localhost:5173/Product"
+                    ? { color: "yellow" }
+                    : null
+                }
+              >
+                Product
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/Service">
+                Service
+              </Link>
+            </li>
+            <li>
+              <Link className="nav-link" to="/AboutUs">
+                AboutUs
+              </Link>
+            </li>
           </ul>
 
           <div className="cart-icon-div">

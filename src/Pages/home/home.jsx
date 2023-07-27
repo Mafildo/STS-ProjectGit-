@@ -6,6 +6,8 @@ import Header from "../nav/header";
 import Feature from "../featuring/feature";
 import TopMost from "../nav/topMost";
 import HomePage from "./components/homePage";
+import Footer from "../Footer/footer";
+import ServicePage from "./components/servicePage";
 
 
 
@@ -19,6 +21,8 @@ const Home = () => {
       {/* <ImageSlider/> */}
       {/* <Slider /> */}
       <Feature/>
+      <ServicePage/>
+      <Footer/>
      
     
     </>
