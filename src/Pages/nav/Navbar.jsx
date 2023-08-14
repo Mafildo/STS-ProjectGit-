@@ -62,6 +62,7 @@ const Navbar = () => {
                 AboutUs
               </Link>
             </li>
+            
           </ul>
 
           <div className="cart-icon-div">

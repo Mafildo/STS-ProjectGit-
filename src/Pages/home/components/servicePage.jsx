@@ -10,11 +10,7 @@ const servicePage = () => {
   return (
     <div className="cont-S">
       <div className="left">
-        <img className="dis" src={dis} alt="" />
-      </div>
-
-      <div className="right">
-        <p className="p-9">ABOUT OUR SERVICE</p>
+      <p className="p-9">ABOUT OUR SERVICE</p>
         <h1 className="h-9">What We Offer Is Not Just Services</h1>
         <p className="p-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos
@@ -48,6 +44,11 @@ const servicePage = () => {
         </div>
 
         <button className="btn-service">View Services</button>
+       
+      </div>
+
+      <div className="right">
+      <img className="dis" src={dis} alt="" />
       </div>
     </div>
   );

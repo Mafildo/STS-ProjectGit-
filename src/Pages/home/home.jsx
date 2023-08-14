@@ -8,6 +8,8 @@ import TopMost from "../nav/topMost";
 import HomePage from "./components/homePage";
 import Footer from "../Footer/footer";
 import ServicePage from "./components/servicePage";
+import AboutUsPage from "./components/aboutUsPage";
+import Contactus from "./components/contactus"; 
 
 
 
@@ -18,10 +20,10 @@ const Home = () => {
       <Header />
       <Navbar />
       <HomePage/>
-      {/* <ImageSlider/> */}
-      {/* <Slider /> */}
       <Feature/>
       <ServicePage/>
+      <AboutUsPage/>
+      <Contactus/>
       <Footer/>
      
     
