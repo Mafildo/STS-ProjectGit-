@@ -6,11 +6,11 @@ const aboutUsPage = () => {
   return (
     <div className="about">
       <div className="left-d">
-      <img className="aboutt" src={aboutus} alt="" />
+        <img className="aboutt" src={aboutus} alt="" />
       </div>
 
       <div className="right-d">
-      <p className="para-20">
+        <p className="para-20">
           Welcome to STS, where innovation and excellence meet! We are a
           dedicated team of passionate individuals who believe in pushing the
           boundaries of what's possible. Our mission is to provide top-notch

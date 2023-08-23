@@ -17,17 +17,15 @@ const TopMost = () => {
           <div className="Store-location-para">Store location</div>
         </div>
 
-        <div className="users-div" onClick={()=>setHide(!hide)}>
+        <div className="users-div" onClick={() => setHide(!hide)}>
           <div className="user-icon">
             <BiSolidUserCircle />
           </div>
           <div className="Account-para">Account</div>
 
-          <Accounts hide={hide}/>
+          <Accounts hide={hide} />
         </div>
-
       </div>
-
     </>
   );
 };

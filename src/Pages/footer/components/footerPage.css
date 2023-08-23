@@ -1,0 +1,217 @@
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(20, 19, 18);
+  color: beige;
+  padding-top: 15px;
+  gap: 25px;
+
+  @media screen and (min-width: 710px) {
+    height: 26em;
+  }
+
+  @media screen and (min-width: 1080px) {
+    flex-direction: row;
+    height: 16em;
+  }
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+
+  @media screen and (min-width: 1080px) {
+    flex-direction: column;
+    width: 35em;
+  }
+}
+
+.col-3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.col-5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.about-company-para {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.about-company-para-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hr-line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.straight-line {
+  height: 4px;
+  background-color: rgb(216, 216, 23);
+  width: 100px;
+  border: 1px solid rgb(20, 19, 18);
+}
+.paragraph-1,
+.paragraph-2 {
+  text-align: center;
+  font-size: 11px;
+  padding-inline: 30px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  @media screen and (min-width: 1080px) {
+    flex-direction: column;
+  }
+}
+
+.useful-links-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  width: 7em;
+}
+
+.useful-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* .nav-links-footer {
+  margin-top: 10px;
+} */
+
+.nav-links-footer ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.more-details {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 15px; */
+  gap: 10px;
+}
+
+.location-detail,
+.mail-detail,
+.ph-number,
+.telephone-number {
+  display: flex;
+  gap: 1em;
+}
+
+.opening-hour-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  /* margin-top: 15px; */
+}
+
+.opening-hour {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.time-table {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 10px; */
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.times {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.copyright-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2em;
+  background-color: black;
+  font-size: 14px;
+}
+
+.useful-links-and-more-details-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  @media screen and (min-width: 710px) {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.connect-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (min-width: 850px) {
+  .all {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+}
+
+@media screen and (min-width: 710px) {
+    
+    .col-5{
+      width: 15em;
+    margin-top: -1.2em;
+
+    }
+  }

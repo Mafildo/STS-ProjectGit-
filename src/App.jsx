@@ -1,8 +1,8 @@
 import React from "react";
 import Home from "./Pages/home/home";
-import Product from "./Pages/Product/product";
+import Product from "./Pages/Product/component/wrapper"
 import Service from "./Pages/Service/service";
-import AboutUs from "./Pages/AboutUs/aboutUs";
+import AboutUs from "./Pages/aboutUs/AboutUs";
 import { Routes, Route } from "react-router-dom";
 import SingleProduct from "./Pages/Product/component/singleProduct/singleProductPage";
 import Cart from "./Pages/Cart/cartPage";

@@ -1,4 +1,4 @@
-.cont-S{
+/* .cont-S{
     width: 100%;
     height: 700px;
     background-color: rgb(248, 248, 248);
@@ -8,7 +8,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     
-}
+/* }
 .left{
     width: 700px;
     height: 500px;
@@ -20,14 +20,14 @@
 }
 .right{
     width: 700px;
-    height: 500px;
+    height: 500px; */
     /* background-color: rgb(235, 235, 235); */
-    margin-top: 100px;
+    /* margin-top: 100px; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-}
+/* }
 .dis{
     width: 620px;
     height: 450px;
@@ -155,4 +155,246 @@
 .p-d{
     display: flex;
     color: rgb(84, 84, 84);
-}
+} */ 
+
+.service-landing-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 47em;
+    gap: 15px;
+    margin-top: 35px;
+  
+  
+    @media screen and (min-width:800px){
+      height: 35em;
+      flex-direction: row;
+      justify-content: space-evenly;
+   }
+  
+  }
+  
+  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .p1{
+    font-size: 15px;
+    margin-top: 15px;
+     
+  
+    @media screen and (min-width:1080px){
+    font-size: 17px;
+   }
+  }
+  
+  .h1{
+    font-size: 20px;
+  
+    @media screen and (min-width:1080px){
+      font-size: 25px;
+     }
+  }
+  
+  .p2{
+    font-size: 15px;
+    width: 23.5em;
+    text-align: justify;
+  
+    @media screen and (min-width:1080px){
+      font-size: 17px;
+      width: 26em;
+     }
+  }
+  
+  .pic{
+    width: 22em;
+    height: 14em;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+  
+    @media screen and (min-width:800px){
+      display: none;
+   }
+    @media screen and (min-width:1080px){
+        display: none;
+   }
+   
+  }
+  
+  .bell-star-fire-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22.2em;
+    height: 9em;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    gap: 15px;
+  
+    @media screen and (min-width:1080px){
+      width: 28em;
+      height: 11em;
+     }
+  }
+  
+  .bell-star{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .bell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    gap: 10px;
+    background-color: white;
+    height: 2.5em;
+  
+    @media screen and (min-width:1080px){
+      width: 10em;
+      font-size: 19px;
+    }
+  }
+  
+  .star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    gap: 10px;
+    background-color: white;
+    height: 2.5em;
+  
+    @media screen and (min-width:1080px){
+      width: 10em;
+      font-size: 19px;
+    }
+  
+  }
+  
+  .project-para{
+    font-size: 15px;
+  }
+  
+  .target-para{
+    font-size: 15px;
+  }
+  
+  .fire-person{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .fire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 10em;
+    gap: 10px;
+    height: 2.5em;
+  
+    @media screen and (min-width:1080px){
+      width: 10em;
+      font-size: 19px;
+    }
+  }
+  
+  .person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 10em;
+    height: 2.5em;
+    gap: 10px;
+  
+    @media screen and (min-width:1080px){
+      width: 10em;
+      font-size: 19px;
+    }
+  }
+  
+  .fire-para{
+    font-size: 15px;
+  }
+  
+  .support-para{
+    font-size: 15px;
+  }
+  
+  .fire-icon{
+    color: rgb(83, 115, 255);
+  }
+  
+  .view-score-para-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: medium;
+    background-color: rgb(0, 30, 255);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    cursor: pointer;
+  }
+
+  .view-score-para-div:hover{
+    background-color: rgb(8, 19, 75);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0px solid;
+    transition: 400ms;
+    cursor: pointer;
+  }
+  
+  .group-pic-2{
+    width: 22em;
+    height: 14em;
+    border-radius: 100px;
+    display: none;
+  
+    @media screen and (min-width:800px){
+      display: flex;
+      width: 25em;
+      height: 18em;
+   }
+  
+   @media screen and (min-width:1060px){
+    display: flex;
+    width: 27em;
+    height: 20em;
+  }
+  
+    @media screen and (min-width:1080px){
+      width: 33em;
+      height: 23em;
+   }
+
+   @media screen and (min-width:1400px){
+    width: 35em;
+    height: 25em;
+ }
+
+  }
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }

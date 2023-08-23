@@ -1,13 +1,15 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  height: 10em;
+  background-color: rgb(64, 64, 64);
   font-size: larger;
   position: absolute;
   inset: 3em 0 0 0;
   overflow: hidden;
   transition: 0.5s;
   z-index: 1;
+
   @media screen and (min-width: 640px) {
     display: none;
   }
@@ -19,4 +21,11 @@
   justify-content: center;
   align-items: center;
   padding-block: 0.26em;
+}
+.nav-linkk{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-linkk:hover{
+  color: rgb(255, 255, 0);
 }

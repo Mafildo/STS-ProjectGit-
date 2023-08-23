@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [hide, setHide] = useState(true);
   const link = window.location.href;
-  // http://localhost:5173/Home
   return (
     <>
       <div className="" style={{ position: "relative" }}>
@@ -28,12 +27,12 @@ const Navbar = () => {
           <ul className="navbar-items">
             <li>
               <Link
-                className="nav-link"
+               className="nav-link"
                 style={
                   link === "http://localhost:5173/Home"
                     ? { color: "yellow" }
                     : null
-                }
+                } 
                 to="/Home"
               >
                 Home
@@ -42,27 +41,43 @@ const Navbar = () => {
             <li>
               <Link
                 className="nav-link"
-                to="/Product"
+                
                 style={
                   link === "http://localhost:5173/Product"
                     ? { color: "yellow" }
                     : null
                 }
+                to="/Product"
               >
                 Product
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/Service">
+              <Link
+                className="nav-link"
+                style={
+                  link === "http://localhost:5173/Service"
+                    ? { color: "yellow" }
+                    : null
+                }
+                to="/Service"
+              >
                 Service
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/AboutUs">
+              <Link
+                className="nav-link"
+                style={
+                  link === "http://localhost:5173/AboutUs"
+                    ? { color: "yellow" }
+                    : null
+                }
+                to="/AboutUs"
+              >
                 AboutUs
               </Link>
             </li>
-            
           </ul>
 
           <div className="cart-icon-div">

@@ -7,6 +7,7 @@ import Feature from "../featuring/feature";
 import TopMost from "../nav/topMost";
 import HomePage from "./components/homePage";
 import Footer from "../footer/footer";
+import ServicePage from "./components/servicePage";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Navbar />
       <HomePage/>
       <Feature/>
+      <ServicePage/>
       <Footer />
     </>
   );
