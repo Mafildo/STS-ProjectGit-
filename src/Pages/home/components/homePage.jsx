@@ -21,14 +21,14 @@ const HomePage = () => {
             >
               ASUS PC SET
             </motion.p>
-<p></p>
+            <p></p>
             <motion.p
               initial={{ x: "-1rem", opacity: 0 }}
               animate={{ x: "0", opacity: 1 }}
               transition={{ duration: 3, type: "spring" }}
               className="para2"
             >
-              Featuring new <span style={{color:"yellow", fontSize: "28px"}}>ASUS PC</span>  for Gamer Folks
+              Featuring new <span className="asus-pc">ASUS PC</span>  for Gamer Folks
             </motion.p>
             <motion.p
               initial={{ y: "0.5rem", opacity: 0 }}
@@ -47,7 +47,7 @@ const HomePage = () => {
               transition={{ duration: 3, type: "spring" }}
               className="explore"
             >
-              Explore <BsArrowRight />
+               Explore <BsArrowRight className="explore-arrow-icon"/>
             </motion.div>
           </div>
           <motion.div
@@ -59,6 +59,7 @@ const HomePage = () => {
             <img src={pc} alt="" className="pc-image" />
           </motion.div>
         </div>
+       
       </div>
     </>
   );

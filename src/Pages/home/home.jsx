@@ -6,12 +6,7 @@ import Header from "../nav/header";
 import Feature from "../featuring/feature";
 import TopMost from "../nav/topMost";
 import HomePage from "./components/homePage";
-import Footer from "../Footer/footer";
-import ServicePage from "./components/servicePage";
-import AboutUsPage from "./components/aboutUsPage";
-import Contactus from "./components/contactus"; 
-
-
+import Footer from "../footer/footer";
 
 const Home = () => {
   return (
@@ -21,12 +16,7 @@ const Home = () => {
       <Navbar />
       <HomePage/>
       <Feature/>
-      <ServicePage/>
-      <AboutUsPage/>
-      <Contactus/>
-      <Footer/>
-     
-    
+      <Footer />
     </>
   );
 };
